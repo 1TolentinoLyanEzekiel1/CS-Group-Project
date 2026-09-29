@@ -44,7 +44,6 @@ Your Weight on Mars: 45.0 lbs (38.0% of Earth gravity)
 Your Age on Mars: 7.4 Mars years
 ==================================================
 Contributors:
-Member 1: Lyan Ezekiel P. Tolentino- Made the first version of README and
-CHANGELOG
+Member 1: Lyan Ezekiel P. Tolentino
 Member 2: Ronand Jeth E. Macapanas
 Member 3: Jaden O. Yusiong
