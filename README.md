@@ -1,49 +1,37 @@
-The Ultimate Space-Time Travel Planner
-Project Description
-This is a text-based Python program designed for 8th-grade computer science students to
-simulate space travel. The program helps users plan rocket trips to celestial destinations across
-our solar system. By combining the Python math library for planetary gravity adjustments and
-the datetime library for calendar shifts, it calculates travel duration, exact future landing dates,
-and biological metric changes (weight and age) on other planets.
-Features
-• Dynamic Date Tracking: Uses the datetime library to process departure dates and calculate
-exact calendar arrival dates.
-• Planetary Physics Modeling: Integrates the math library to perform floor rounding for cosmic
-weight changes based on planetary gravity.
-• Error and Input Validation: Handles invalid keystrokes and wrong date patterns securely using
-standard error-catching loops.
-• Cosmic Conversion Factors: Features automated code paths to map precise orbital year
-lengths for your age across different planetary horizons.
-How to Run the Program
-1. Ensure that you have Python 3 installed on your computer.
-2. Download or save the code file as space_travel_planner.py.
-3. Open your computer's terminal, command prompt, or development workspace (such as
-Thonny or VS Code).
-4. Run the program using the command: python space_travel_planner.py or press F5 inside
-your IDE.
-5. Follow the on-screen instructions to select planets and calculate your space metrics.
-Example Output
-==================================================
-THE ULTIMATE SPACE-TIME TRAVEL PLANNER
-==================================================
-Enter your weight on Earth (lbs): 120
-Enter your current age (years): 14
-Enter departure date (YYYY-MM-DD) [Leave blank for today]: 2026-08-28
-Select your celestial destination:
-1. Mars (The Red Planet)
-2. Jupiter (The Gas Giant)
-3. Venus (The Evening Star)
-Enter choice (1-3):
-1 Calculating flight trajectory... Done!
-------------------- TRIP SUMMARY -------------------
-Destination: Mars Departure Date: Friday, August 28, 2026
-Estimated Flight Time: 5,088 hours (212 days)
-Estimated Arrival Date: Sunday, March 28, 2027
------------------ PLANETARY METRICS ----------------
-Your Weight on Mars: 45.0 lbs (38.0% of Earth gravity)
-Your Age on Mars: 7.4 Mars years
-==================================================
-Contributors:
-Member 1: Lyan Ezekiel P. Tolentino
-Member 2: Ronand Jeth E. Macapanas
-Member 3: Jaden O. Yusiong
+Space-Time Travel PlannerOverview / DescriptionThe Space-Time Travel Planner is a terminal-based Python application designed to simulate interplanetary travel logistics across our solar system. Based on principles of gravitational physics and theoretical astrophysics, the program calculates how traveling to different celestial bodies (Mars, Jupiter, and Venus) impacts physical metrics such as effective weight, mission arrival schedules, and chronological age progression relative to Earth years.
+Features:
+Interactive Destination Selection: Choose between Mars, Jupiter, and Venus with built-in input validation.
+Gravitational Weight Scaling: Calculates your weight on other planets based on local gravitational multipliers ($0.38g$ for Mars, $2.34g$ for Jupiter, and $0.90g$ for Venus).
+Arrival Date Prediction: Uses Python's datetime module to calculate your estimated calendar arrival date based on mission travel duration.
+Age Progression Calculation: Computes your adjusted age upon arrival at your destination.
+
+How to Run / RequirementsRequirementsPython 3.x installed on your system.Standard Python libraries: datetime (pre-installed with Python).
+
+How to Run
+Clone or download the project files to your local directory.
+Open a terminal or command prompt in the project directory.Run the application using Python:
+Bashpython planner.py
+
+Sample Interaction / Example Output
+====================================
+   SPACE-TIME TRAVEL PLANNER
+====================================
+Enter your weight on Earth (lbs): 110
+Enter your age: 13
+
+Choose your destination:
+1. Mars
+2. Jupiter
+3. Venus
+Enter your choice (1-3): 1
+
+========== TRIP SUMMARY ==========
+Destination: Mars
+Departure Date: October 16, 2026
+Travel Time: 212 days
+Estimated Arrival: May 16, 2027
+
+========== PLANETARY METRICS ==========
+Your Weight on Mars : 41.8 lbs
+Your Age on Mars : 13.6 years
+====================================
